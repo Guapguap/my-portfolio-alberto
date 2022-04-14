@@ -1,58 +1,184 @@
 * {
   box-sizing: border-box;
-}
-
-body {
-  font-family: Arial;
+  padding: 0;
   margin: 0;
 }
 
-.main {
-  display: flex;
-  /* Forces elements to the next line if they don't fit */
-   /* created a flex-flow so i can make the flex items fit in a column AND wrap  */
-   flex-flow: column wrap;
-  margin-top: 2%;
+body {
+  background-color: #d9dcd6;
 }
 
-.main-header {
-  display: flex;
-  /* Forces elements to the next line if they don't fit */
-  flex-wrap: wrap;
-  justify-content: center;
-  padding: 60px;
-  background: #13293d;
-  color: #fff;
+/* Moved the 'a' and 'p' elements to the top */
+
+a {
+  color: #ffffff;
+  text-decoration: none;
 }
 
-/* created a new class to style the heading for the project portion  */
-.projects-tab {
-
+p {
+  font-size: 16px;
 }
 
-.project {
-  flex: 1 0 0;
-  padding: 10px;
-  text-align: center;
-  border-style: solid;
-  border-width: 1px;
-}
+/* Changed the 'header' class into an element */
 
-.project-1 {
-  flex: 2 0 800px;
-  padding: 10px;
-  text-align: center;
-  border-style: solid;
-  border-width: 1px;
-}
-
-.project header {
+header {
   padding: 20px;
-  background: #13293d;
-  color: #fff;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color: #2a607c;
+  color: #ffffff;
 }
 
-.project img {
-  width: 100%;
-  min-width: 400px;
+header h1 {
+  display: inline-block;
+  font-size: 48px;
+}
+
+header h1 .seo {
+  color: #d9dcd6;
+}
+
+/* changed the header 'div' element to 'nav' */
+
+header nav {
+  padding-top: 15px;
+  margin-right: 50px;
+  float: right;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+}
+
+header nav ul {
+  list-style-type: none;
+}
+
+
+header nav ul li {
+  display: inline-block;
+  margin-left: 25px;
+}
+
+.background img {
+  /* height: 800px;
+  width: 100%; */
+  margin-bottom: 25px;
+  background-size: cover;
+  background-position: center;
+}
+
+.float-left {
+  float: left;
+  margin-right: 25px;
+}
+
+.float-right {
+  float: right;
+  margin-left: 25px;
+}
+
+/* Changed the div tag to main  */
+
+main {
+  width: 75%;
+  display: inline-block;
+  margin-left: 20px;
+}
+
+/* moved all 'benefits' section below the 'main' section */
+
+/* Grouped all the 'mainstyle' classes and subclasses in sequential order */
+
+.mainstyle {
+  margin-bottom: 20px;
+  padding: 50px;
+  height: 300px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: #0072bb;
+  color: #ffffff;
+}
+
+/* Consilidated all h2 elements into one syntax */
+
+.mainstyle h2 {
+  margin-bottom: 20px;
+  font-size: 36px;
+}
+
+/* Consilidated all 'mainstyle' img elements into one syntax */
+
+.mainstyle img {
+  max-height: 200px;
+}
+
+/* Adding a display of flex and adding a flex-wrap  and a flex to aside */
+
+aside {
+  margin-right: 20px;
+  padding: 20px;
+  clear: both;
+  float: right;
+  width: 20%;
+  height: 100%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: #2589bd;
+} 
+
+/* moved all 'benefits' section beneath the 'main' section */
+
+/* Grouped all the 'benefits' classes and subclasses in sequential order */
+
+.benefits {
+  margin-bottom: 32px;
+  color: #ffffff;
+}
+
+/* Consilidated all h3 elements into one syntax */
+
+.benefits h3 {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+/* Consilidated all 'benefits' img elements into one syntax */
+
+.benefits img {
+  display: block;
+  margin: 10px auto;
+  max-width: 150px;
+}
+
+/* Changed and consolidated all classes in 'main' section to mainstyle */
+
+.mainstyle {
+  margin-bottom: 20px;
+  padding: 50px;
+  height: 300px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: #0072bb;
+  color: #ffffff;
+}
+
+/* Consilidated all h2 elements into one syntax */
+
+.mainstyle h2 {
+  margin-bottom: 20px;
+  font-size: 36px;
+}
+
+/* Consilidated all img elements into one syntax */
+
+.mainstyle img {
+  max-height: 200px;
+}
+
+/* Changed the footer class into an element */
+
+footer {
+  padding: 30px;
+  clear: both;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+}
+
+footer h2 {
+  font-size: 20px;
 }
