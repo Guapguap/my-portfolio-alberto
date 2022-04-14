@@ -33,9 +33,6 @@ header h1 {
   font-size: 48px;
 }
 
-header h1 .seo {
-  color: #d9dcd6;
-}
 
 /* changed the header 'div' element to 'nav' */
 
@@ -109,6 +106,10 @@ main {
   max-height: 200px;
 }
 
+.project-1 {
+  
+}
+
 /* Adding a display of flex and adding a flex-wrap  and a flex to aside */
 
 aside {
@@ -126,57 +127,36 @@ aside {
 
 /* Grouped all the 'benefits' classes and subclasses in sequential order */
 
-.benefits {
+.about-me {
   margin-bottom: 32px;
   color: #ffffff;
 }
 
 /* Consilidated all h3 elements into one syntax */
 
-.benefits h3 {
+.about-me h3 {
   margin-bottom: 10px;
   text-align: center;
 }
 
 /* Consilidated all 'benefits' img elements into one syntax */
 
-.benefits img {
+.about-me img {
   display: block;
   margin: 10px auto;
   max-width: 150px;
 }
 
-/* Changed and consolidated all classes in 'main' section to mainstyle */
-
-.mainstyle {
-  margin-bottom: 20px;
-  padding: 50px;
-  height: 300px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  background-color: #0072bb;
-  color: #ffffff;
-}
-
-/* Consilidated all h2 elements into one syntax */
-
-.mainstyle h2 {
-  margin-bottom: 20px;
-  font-size: 36px;
-}
-
-/* Consilidated all img elements into one syntax */
-
-.mainstyle img {
-  max-height: 200px;
-}
 
 /* Changed the footer class into an element */
 
 footer {
   padding: 30px;
+  margin: 30px;
   clear: both;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  text-align: center;
+  background-color: maroon;
+  width: 75%;
 }
 
 footer h2 {
