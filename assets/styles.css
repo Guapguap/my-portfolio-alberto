@@ -7,10 +7,11 @@ body {
   margin: 0;
 }
 
-main {
+.main {
   display: flex;
   /* Forces elements to the next line if they don't fit */
-  flex-wrap: wrap;
+   /* created a flex-flow so i can make the flex items fit in a column AND wrap  */
+   flex-flow: column wrap;
   margin-top: 2%;
 }
 
@@ -18,13 +19,18 @@ main {
   display: flex;
   /* Forces elements to the next line if they don't fit */
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
   padding: 60px;
   background: #13293d;
   color: #fff;
 }
 
-.card {
+/* created a new class to style the heading for the project portion  */
+.projects-tab {
+
+}
+
+.project {
   flex: 1 0 0;
   padding: 10px;
   text-align: center;
@@ -32,13 +38,21 @@ main {
   border-width: 1px;
 }
 
-.card header {
+.project-1 {
+  flex: 2 0 800px;
+  padding: 10px;
+  text-align: center;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.project header {
   padding: 20px;
   background: #13293d;
   color: #fff;
 }
 
-.card img {
+.project img {
   width: 100%;
   min-width: 400px;
 }
