@@ -124,8 +124,8 @@ p {
 /* Consilidated all 'projects' h2 elements into one syntax */
 
 .projects h3 {
-  /* display: ; */
-  margin-bottom: 20px;
+  display: flex;
+  margin: 50px 50px;
   font-size: 36px;
 }
 
