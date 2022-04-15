@@ -8,8 +8,6 @@ body {
   background-color: #2f0b69;
 }
 
-/* Moved the 'a' and 'p' elements to the top */
-
 a {
   color: #ffffff;
   text-decoration: none;
@@ -19,8 +17,6 @@ p {
   display: block;
   font-size: 30px;
 }
-
-/* Changed the 'header' class into an element */
 
 .header {
   padding: 20px;
@@ -34,8 +30,6 @@ p {
   font-size: 50px;
 }
 
-
-/* changed the header 'div' element to 'nav' */
 
 .header nav {
   padding-top: 15px;
@@ -63,8 +57,8 @@ p {
   background-position: center;
 }
 
+/* this is the container for my about me  */
 /* Adding a display of flex display */
-/* removed the float and added margins to every side.  */
 .about-me-container {
   display: flex;
   padding: 20px;
@@ -85,11 +79,15 @@ p {
   font-size: 60px;
 }
 
+/* added display flex to center the profile picture  */
 .about-me img {
+  display: flex;
+  flex-wrap: wrap;
   margin: 10px auto;
   max-height: 400px;
 }
 
+/* this is the container for the main part of the project that holds the projects  */
 .main-container {
   display: flex;
   flex-flow: column wrap;
@@ -113,7 +111,7 @@ p {
   flex-wrap: wrap;
   justify-content: center;
   text-align: center;
-  margin-bottom: 20px;
+  margin: 30px 30px;
   padding: 50px;
   border: 5px solid black;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -121,7 +119,7 @@ p {
   color: #ffffff;
 }
 
-/* Consilidated all 'projects' h2 elements into one syntax */
+/* Consilidated all 'projects' h3 elements into one syntax */
 
 .projects h3 {
   display: flex;
@@ -137,27 +135,21 @@ p {
 }
 
 /* creating a specific class to increase the size of the first application */
-/* 
-.project-1 {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  text-align: center;
-} */
 
 .project-1 img {
  max-height: fit-content;
 
 }
 
-/* Changed the footer class into an element */
+/* Changed the footer element into a class */
+/* turned the footer into a parent container to adjust everything  */
 
 .footer {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   padding: 30px;
-  margin: 30px;
+  margin: 30px 30px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   background-color: maroon;
   border: 5px solid black;
@@ -174,4 +166,43 @@ p {
   display: inline-block;
   margin-left: 25px;
   font-size: 30px;
+}
+
+
+
+/* still need to correct the first application image within the media query  */
+/* created a media query so the containers fit properly in the collapsed window  */
+
+@media screen and (max-width: 980px) {
+  body {
+      width: 100%;
+  }
+  .projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    margin: 50px 50px;
+    padding: 50px;
+  }
+
+  .footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 50px;
+    margin: 50px 50px;
+    
+  }
+
+  .project-1 img {
+    max-height: 100%;
+   
+   }
+   
+   .projects img {
+    max-height: 150px;
+    
+  }
+  
 }
