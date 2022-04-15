@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #d9dcd6;
+  background-color: #2f0b69;
 }
 
 /* Moved the 'a' and 'p' elements to the top */
@@ -16,27 +16,28 @@ a {
 }
 
 p {
-  font-size: 16px;
+  display: block;
+  font-size: 30px;
 }
 
 /* Changed the 'header' class into an element */
 
-header {
+.header {
   padding: 20px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  background-color: #2a607c;
+  background-color: darkred;
   color: #ffffff;
 }
 
-header h1 {
+.header h1 {
   display: inline-block;
-  font-size: 48px;
+  font-size: 50px;
 }
 
 
 /* changed the header 'div' element to 'nav' */
 
-header nav {
+.header nav {
   padding-top: 15px;
   margin-right: 50px;
   float: right;
@@ -44,12 +45,12 @@ header nav {
   font-size: 20px;
 }
 
-header nav ul {
+.header nav ul {
   list-style-type: none;
 }
 
 
-header nav ul li {
+.header nav ul li {
   display: inline-block;
   margin-left: 25px;
 }
@@ -62,103 +63,115 @@ header nav ul li {
   background-position: center;
 }
 
-.float-left {
-  float: left;
-  margin-right: 25px;
-}
-
-.float-right {
-  float: right;
-  margin-left: 25px;
-}
-
-/* Changed the div tag to main  */
-
-main {
-  width: 75%;
-  display: inline-block;
-  margin-left: 20px;
-}
-
-/* moved all 'benefits' section below the 'main' section */
-
-/* Grouped all the 'mainstyle' classes and subclasses in sequential order */
-
-.mainstyle {
-  margin-bottom: 20px;
-  padding: 50px;
-  height: 300px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  background-color: #0072bb;
-  color: #ffffff;
-}
-
-/* Consilidated all h2 elements into one syntax */
-
-.mainstyle h2 {
-  margin-bottom: 20px;
-  font-size: 36px;
-}
-
-/* Consilidated all 'mainstyle' img elements into one syntax */
-
-.mainstyle img {
-  max-height: 200px;
-}
-
-.project-1 {
-  
-}
-
-/* Adding a display of flex and adding a flex-wrap  and a flex to aside */
-
-aside {
-  margin-right: 20px;
+/* Adding a display of flex display */
+/* removed the float and added margins to every side.  */
+.about-me-container {
+  display: flex;
   padding: 20px;
-  clear: both;
-  float: right;
-  width: 20%;
-  height: 100%;
+  margin: 20px 20px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  background-color: #2589bd;
+  background-color: maroon;
+  border: 5px solid black;
 } 
-
-/* moved all 'benefits' section beneath the 'main' section */
-
-/* Grouped all the 'benefits' classes and subclasses in sequential order */
 
 .about-me {
   margin-bottom: 32px;
   color: #ffffff;
 }
 
-/* Consilidated all h3 elements into one syntax */
-
-.about-me h3 {
+.about-me h2 {
   margin-bottom: 10px;
+  text-align: center;
+  font-size: 60px;
+}
+
+.about-me img {
+  margin: 10px auto;
+  max-height: 400px;
+}
+
+.main-container {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-around;
+  margin: 30px 30px;
+}
+
+
+/* created a header above the projects to desgin  */
+.project-header {
+  font-size: 60px;
+  margin: 30px 30px;
+  color: white;
   text-align: center;
 }
 
-/* Consilidated all 'benefits' img elements into one syntax */
+/* projects classes and subclasses grouped together  */
 
-.about-me img {
-  display: block;
-  margin: 10px auto;
-  max-width: 150px;
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 20px;
+  padding: 50px;
+  border: 5px solid black;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: maroon;
+  color: #ffffff;
 }
 
+/* Consilidated all 'projects' h2 elements into one syntax */
+
+.projects h3 {
+  /* display: ; */
+  margin-bottom: 20px;
+  font-size: 36px;
+}
+
+/* Consilidated all 'projects' img elements into one syntax */
+
+.projects img {
+  max-height: 200px;
+  
+}
+
+/* creating a specific class to increase the size of the first application */
+/* 
+.project-1 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+} */
+
+.project-1 img {
+ max-height: fit-content;
+
+}
 
 /* Changed the footer class into an element */
 
-footer {
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
   padding: 30px;
   margin: 30px;
-  clear: both;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   background-color: maroon;
-  width: 75%;
+  border: 5px solid black;
 }
 
-footer h2 {
-  font-size: 20px;
+.footer h4 {
+  font-size: 40px;
+  color: white;
+}
+
+
+/* added a display of inline block to set the li more to the right  */
+.footer ul li {
+  display: inline-block;
+  margin-left: 25px;
+  font-size: 30px;
 }
