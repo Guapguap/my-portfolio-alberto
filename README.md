@@ -44,7 +44,8 @@ Screenshot of Modified Site:
 <br>
 <br>
 
-![guapguap github io_albertolondono github io_(iPhone 12 Pro)](https://user-images.githubusercontent.com/102185104/162279000-7999fd7b-9c9e-41dd-b09a-2a5a4c6d13f0.png)
+![portolio screenshot](https://user-images.githubusercontent.com/102185104/163651625-012715a1-fdda-4ba2-bea2-072176f8726f.png)
+
 
 
 
