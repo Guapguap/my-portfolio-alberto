@@ -1,7 +1,4 @@
 # my-portfolio-alberto
-First draft / homework portfolio
-<br>
-Link to Portfolio:  https://guapguap.github.io/my-portfolio-alberto/
 
 ## Description
 
@@ -9,18 +6,18 @@ Here is a short description about my thoughts looking into this project.
 
 <strong>What was your motivation?</strong>
 <br>
-    -My motivation is switching my career. I am at a point in my life where I am ready for the next challenge and coding brings exactly that to the table.
+    -The main motivator when completing this assignment was the constant voice in the back of my mind telling to me that I can accomplish this new challenge.
 <br>
 <strong>Why did you build this project?</strong>
 <br>
-    -I built this project to not only attempt and correct any issues that I saw but a personal goal set for myself to try and exceed my own expectations and implement css properties outside of my comfort level.   
-<strong>What problem does it solve?</strong>
+    -I built this portfolio for future employers and a personal tab for myself to refer back to and add anymore future projects. It is a great 'folder' to hold and view everything I've done in the past.  
+<strong>What problems did I encounter?</strong>
 <br>
-    -One problem that I noticed it solve, was my uncertainity towards being able to defactor any upcoming projects in my future.
+    -I encountered several problems with this assignment. I noticed that my understanding of flexbox was not the greatest. Having to figure out how each property works cohesively with the container and children of the container was a challenge of its own. This project forced my hand to crack down and overcome these problems.
 <br>
 <strong>What did you learn?</strong>
 <br>
-    -The thing that I learned from the problem was my ability to push past any self doubt and take control of the situation. 
+    -I got an overall better understanding of flexbox and how it works. I am at much more comfortable level when using flexbox. I learned through my tutor that it all comes down to trial and error. Keep playing around with the properties and eventually you will learn how it works. There is no point going into a tutorial 'hell' of trying to read and find the answer.
 
 ## Website Link and Screenshot Usage
 
