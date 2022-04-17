@@ -137,7 +137,7 @@ p {
 /* creating a specific class to increase the size of the first application */
 
 .project-1 img {
- max-height: fit-content;
+  max-height: fit-content;
 
 }
 
@@ -196,13 +196,11 @@ p {
   }
 
   .project-1 img {
-    max-height: 100%;
-   
-   }
-   
-   .projects img {
-    max-height: 150px;
-    
+    min-height: 300px; 
   }
-  
+
+  .projects img {
+    max-height: 150px;  
+  }
 }
+
