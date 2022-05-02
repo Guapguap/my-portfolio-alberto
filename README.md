@@ -41,7 +41,7 @@ Screenshot of Modified Site:
 <br>
 <br>
 
-![portolio screenshot](https://user-images.githubusercontent.com/102185104/163651625-012715a1-fdda-4ba2-bea2-072176f8726f.png)
+![_C__Users_Guap_Desktop_GitHub_Homework%20Folder_Week%202%20Assignment_my-portfolio-alberto_index html(iPhone SE) (2)](https://user-images.githubusercontent.com/102185104/166323462-52261565-9b0b-477d-ba36-09a99c2c1cc0.png)
 
 
 
