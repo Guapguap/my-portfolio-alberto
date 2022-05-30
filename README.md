@@ -36,12 +36,12 @@ Link to Portfolio: <a href="https://guapguap.github.io/my-portfolio-alberto/" ta
 <br>
 <br>
 
-Screenshot of Modified Site: 
+Screenshots of Modified Site: 
 
 <br>
 <br>
 
-![_C__Users_Guap_Desktop_GitHub_Homework%20Folder_Week%202%20Assignment_my-portfolio-alberto_index html(iPhone SE) (2)](https://user-images.githubusercontent.com/102185104/166323462-52261565-9b0b-477d-ba36-09a99c2c1cc0.png)
+![guapguap github io_my-portfolio-alberto_(iPhone 12 Pro) (2)](https://user-images.githubusercontent.com/102185104/170902866-871b6301-3b98-4ddc-8216-3f66196d5c1c.png)
 
 
 
